@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /*
 * Написать метод, добавляющий 500 тыс. элементов в ArrayList и LinkedList.
@@ -16,49 +17,53 @@ public class Main {
         int N = 500000;
         int M = 100000;
 
-        ArrayList<Integer> arr = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> linkedList = new LinkedList<>();
 
-        Instant start = Instant.now();
-        for(int i = 0; i < N; i ++) {
-          arr.add(3 + (int) ( Math.random() * 100 )) ;
+        Instant startAddArrayList = Instant.now();
+        add500_000Elems( arrayList );
+        Instant endAddArrayList = Instant.now();
+
+        Instant startAddLinkedList = Instant.now();
+        add500_000Elems( linkedList );
+        Instant endAddLinkedList = Instant.now();
+
+
+        Instant startGetArrayList = Instant.now();
+        get100_000RandomElems( arrayList );
+        Instant endGetArrayList = Instant.now();
+
+        Instant startGetLinkedList = Instant.now();
+        get100_000RandomElems( linkedList );
+        Instant endGetLinkedList = Instant.now();
+
+        System.out.println("Время добавления элементов в ArrayList = "
+                + Duration.between(startAddArrayList, endAddArrayList).toMillis());
+        System.out.println("Время добавления элементов в LinkedList = "
+                + Duration.between(startAddLinkedList, endAddLinkedList).toMillis());
+        System.out.println("Время получения элементов в ArrayList = "
+                + Duration.between(startGetArrayList, endGetArrayList).toMillis());
+        System.out.println("Время получения элементов в LinkedList = "
+                + Duration.between(startGetLinkedList, endGetLinkedList).toMillis());
+
+    }
+
+    public static void add500_000Elems(List<Integer> list ) {
+        for(int i = 0; i < 500_000; i ++) {
+            list.add(3 + (int) ( Math.random() * 100 )) ;
         }
+    }
 
-        int[] arr2 = new int[M];
+    public static int[] get100_000RandomElems(List<Integer> list) {
+        final int M = 100_000;
+        final int N = list.size();
 
-
-//        Instant start = Instant.now();
+        int[] resultArr = new int[M];
 
         for(int i = 0; i < M; i++){
-          arr2[i] = arr.get( (int)(Math.random() * N) );
+            resultArr[i] = list.get( (int)(Math.random() * N) );
         }
 
-
-        Instant finish = Instant.now();
-        long elapsed = Duration.between(start, finish).toMillis();
-
-        System.out.println("Прошло времени, мс: " + elapsed);
-
-        LinkedList<Integer> arr4 = new LinkedList<>();
-
-         start = Instant.now();
-        for(int i = 0; i < N; i ++) {
-            arr4.add(3 + (int) ( Math.random() * 100 )) ;
-        }
-
-        int[] arr3 = new int[M];
-
-
-//        Instant start = Instant.now();
-
-        for(int i = 0; i < M; i++){
-            arr3[i] = arr4.get( (int)(Math.random() * N) );
-        }
-
-
-        finish = Instant.now();
-        elapsed = Duration.between(start, finish).toMillis();
-
-        System.out.println("Прошло времени, мс: " + elapsed);
-
+        return resultArr;
     }
 }
