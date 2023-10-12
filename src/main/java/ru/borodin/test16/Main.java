@@ -2,6 +2,7 @@ package ru.borodin.test16;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 /*
 * Реализовать метод, который на вход получает коллекцию объектов, а возвращает коллекцию без дубликатов.
@@ -18,6 +19,6 @@ public class Main {
 
     public <E> Collection<E> removeDuplicates (Collection<E> col) {
 
-        return new HashSet<>(col);
+        return new LinkedHashSet<>(col);
     }
 }
