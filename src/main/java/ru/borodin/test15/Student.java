@@ -9,7 +9,7 @@ public class Student {
     private int    id;
     private String group;
     private int    course;
-    private final HashMap<String, Integer> marks = new HashMap<>();
+    private final  HashMap<String, Integer> marks = new HashMap<>();
     private double avrMark;
 
 
@@ -20,8 +20,8 @@ public class Student {
 
             int sumOfMarks = 0;
 
-            for(Integer i : valueList)
-                sumOfMarks += i;
+            for(Integer value : valueList)
+                sumOfMarks += value;
 
             this.avrMark = 1.0 * sumOfMarks / valueList.size();
         }
@@ -30,7 +30,8 @@ public class Student {
     }
 
     public Student( String firstName, String secondName,
-                        int id, String group, int course, String[] subjects) {
+                    int id, String group, int course,
+                    String[] subjects) {
 
         this.setFirstName(firstName);
         this.setSecondName(secondName);
@@ -40,16 +41,27 @@ public class Student {
         for (String subject : subjects) {
             this.marks.put(subject, 0);
         }
-
     }
 
     public void setMarks() {
         for(Map.Entry<String, Integer> entry: this.marks.entrySet()) {
 
-            System.out.println(entry.getKey() + "=" );
+            System.out.print(entry.getKey() + " = " );
             Scanner in = new Scanner(System.in);
             entry.setValue(in.nextInt());
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "firstName='" + firstName + '\'' +
+                ", secondName='" + secondName + '\'' +
+                ", group='" + group + '\'' +
+                ", course=" + course +
+                ", marks=" + marks +
+                ", avrMark=" + getAvrMark() +
+                '}';
     }
 
     public String getFirstName() {
