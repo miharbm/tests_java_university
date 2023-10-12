@@ -14,11 +14,17 @@ import java.util.List;
 * */
 
 public class Main {
-    public static void main(String[] args) throws IOException {
 
+    public static void main(String[] args)  {
+        readTransposeMatrix();
+    }
+
+    public static void readTransposeMatrix() {
         try {
-//            Неверный адрес
-            Path path = Paths.get("C:\\Users\\Admin\\OneDrive\\Documents\\test17array.txt");
+            String filePath = "test17array.txt";
+            String pathBase = "src\\main\\java\\ru\\borodin\\test17";
+
+            Path path = Paths.get( pathBase, filePath );
 
             List<String> list = Files.readAllLines(path);
 
@@ -29,15 +35,14 @@ public class Main {
             }
 
 
-            System.out.println("Матрицы введеная из файла");
+            System.out.println("Матрица введенная из файла");
             for (int[] ints : matrix) {
                 for (int anInt : ints) {
-
                     System.out.print(anInt + " ");
                 }
                 System.out.println();
             }
-            
+
 
             int[][] matrixTranspose = new int[matrix[0].length][matrix.length];
 
@@ -52,7 +57,6 @@ public class Main {
 
             for (int[] ints : matrixTranspose) {
                 for (int anInt : ints) {
-
                     System.out.print(anInt + " ");
                 }
                 System.out.println();
@@ -60,7 +64,7 @@ public class Main {
 
 
         } catch (IOException e){
-            System.out.println(e);
+            e.printStackTrace();
         }
     }
 }

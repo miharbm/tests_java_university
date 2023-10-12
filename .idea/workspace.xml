@@ -4,21 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/Main.java" afterDir="false" />
+    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test15/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test15/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test15/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test15/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test16/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test16/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test17/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2WLdddKX3WS8DXlSozbMqRuhAk1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,9 +44,82 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/Downloads/Изображения/Рабочий стол/leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "proofread",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src" />
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java" />
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test24" />
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test17" />
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test15" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.borodin.test25" />
+      <recent name="ru.borodin.test22" />
+      <recent name="ru.borodin.test20" />
+      <recent name="ru.borodin.test19" />
+      <recent name="ru.borodin.test18" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ru.borodin.test15.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.testOleg.Main" />
+      <module name="tests_java_university" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borodin.testOleg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.borodin.test15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test15.Main" />
+      <module name="tests_java_university" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borodin.test15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.borodin.test17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test17.Main" />
+      <module name="tests_java_university" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borodin.test17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ru.borodin.test15.Main" />
+        <item itemvalue="Application.ru.borodin.test17.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,8 +128,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696515884916</updated>
-      <workItem from="1696515886078" duration="2000" />
+      <workItem from="1696515886078" duration="17434000" />
+      <workItem from="1696707347799" duration="1651000" />
+      <workItem from="1696801636482" duration="673000" />
+      <workItem from="1696854505682" duration="59000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1696519154564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696519154564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
