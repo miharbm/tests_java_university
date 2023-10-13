@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="change HashSet to LinkedHashSet">
+    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="make new test18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test18/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test19/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test19/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Downloads/Изображения/Рабочий стол/leetcode&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Admin/Downloads/Изображения/Рабочий стол/leetcode",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src" />
@@ -69,7 +70,7 @@
       <recent name="ru.borodin.test18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.borodin.test18.Main">
+  <component name="RunManager" selected="Application.ru.borodin.test19.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.borodin.testOleg.Main" />
       <module name="tests_java_university" />
@@ -122,8 +123,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.borodin.test19.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test19.Main" />
+      <module name="tests_java_university" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.borodin.test19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.borodin.test19.Main" />
         <item itemvalue="Application.ru.borodin.test18.Main" />
         <item itemvalue="Application.ru.borodin.test15.Main" />
         <item itemvalue="Application.ru.borodin.test17.Main" />
@@ -143,7 +158,7 @@
       <workItem from="1696707347799" duration="1651000" />
       <workItem from="1696801636482" duration="673000" />
       <workItem from="1696854505682" duration="59000" />
-      <workItem from="1697148035939" duration="1533000" />
+      <workItem from="1697148035939" duration="8900000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -177,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697148257565</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="make new test18">
+      <option name="closed" value="true" />
+      <created>1697149668860</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697149668860</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +211,7 @@
     <MESSAGE value="add main work to test15" />
     <MESSAGE value="divide logic in test 17" />
     <MESSAGE value="change HashSet to LinkedHashSet" />
-    <option name="LAST_COMMIT_MESSAGE" value="change HashSet to LinkedHashSet" />
+    <MESSAGE value="make new test18" />
+    <option name="LAST_COMMIT_MESSAGE" value="make new test18" />
   </component>
 </project>

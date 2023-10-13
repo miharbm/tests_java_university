@@ -1,8 +1,7 @@
 package ru.borodin.test19;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Scanner;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /*
 * Написать программу, считывающую из консоли последовательность целых чисел, разделенных пробелами,
@@ -17,39 +16,64 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+//        dequeRealization();
+        queueRealization();
+    }
 
-        int N = 10;
-        Scanner in = new Scanner(System.in);
+    public static void queueRealization() {
+        Scanner scanner = new Scanner( System.in );
 
-        Deque<Integer> deque= new ArrayDeque<>();
+        Queue<Integer> queue = Arrays.stream( scanner.nextLine()
+                        .trim()
+                        .split( " " ) )
+                .map( Integer::parseInt )
+                .collect( Collectors.toCollection(ArrayDeque::new) );
 
-        for (int i = 0; i < N; i++){
-            deque.add(in.nextInt());
-        }
-
-
-        System.out.println("Введено:");
-        System.out.println(deque);
-        System.out.println(deque.size());
-
-        for (int i = 1; i < N + 1; i++){
-            if(i % 2 == 0) {
-                deque.removeFirst();
-                System.out.println(i + "  - удалил его, теперь тут   " + deque.peekFirst());
+        int size = queue.size();
+        for (int i = 0; i < size; i++) {
+            if (i % 2 == 0) {
+                queue.poll();
             } else {
-                deque.addLast(deque.removeFirst());
-                System.out.println(i + "  - добавил в конец  " + deque.getLast());
+                queue.add( queue.poll() );
             }
-            System.out.println("Размер дека  =  " + deque.size());
         }
+        System.out.println(queue);
+
+        reversePrint( queue );
+        System.out.println();
+    }
+
+    private static void reversePrint(Queue<Integer> queue) {
+        int tmp = queue.remove();
+        if (!queue.isEmpty()) {
+            reversePrint( queue );
+        }
+        System.out.print(tmp + " ");
+    }
+
+    public static void dequeRealization() {
+
+        Scanner scanner = new Scanner( System.in );
+
+        Deque<Integer> deque = Arrays.stream( scanner.nextLine()
+                        .trim()
+                        .split( " " ) )
+                .map( Integer::parseInt )
+                .collect( Collectors.toCollection(ArrayDeque::new) );
+
+        int size = deque.size();
+        for (int i = 0; i < size; i++) {
+            if (i % 2 == 0) {
+                deque.poll();
+            } else {
+                deque.add( deque.poll() );
+            }
+        }
+        System.out.println(deque);
 
         while(!deque.isEmpty()){
-            System.out.println(deque.removeLast());
+            System.out.print(deque.removeLast() + " ");
         }
-
-        System.out.println("Вывод:");
-        System.out.println(deque);
-        System.out.println(deque.size());
-
+        System.out.println();
     }
 }

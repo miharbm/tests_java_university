@@ -14,9 +14,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        int N = 500000;
-        int M = 100000;
-
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
 
