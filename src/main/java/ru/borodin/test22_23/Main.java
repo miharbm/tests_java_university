@@ -1,5 +1,6 @@
 package ru.borodin.test22_23;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -21,7 +22,7 @@ public class Main {
         Integer[] arr1 = {1, 5, 7, 4, 23, 1, 7, 1, 666, 123, 1};
 
         Map<Integer, Integer> map1 = mapOfArray(arr1);
-        Map<Integer, Integer> map2 = mapSwap(map1);
+        Map<Integer, ArrayList<Integer>> map2 = mapSwap(map1);
 
         System.out.println(map1);
         System.out.println(map2);
@@ -44,14 +45,17 @@ public class Main {
         return map;
     }
 
-    static <T, R> Map<R,T> mapSwap(Map<T, R> mapIn){
+    static <T, R> Map<R,ArrayList<T>> mapSwap(Map<T, R> mapIn){
 
-        Map<R,T> mapOut = new HashMap<>();
+        Map<R, ArrayList<T>> mapOut = new HashMap<>();
 
         Set<Map.Entry<T, R>> entries = mapIn.entrySet();
 
         for(Map.Entry<T, R> pair: entries) {
-            mapOut.put(pair.getValue(), pair.getKey());
+            if (!mapOut.containsKey(pair.getValue())) {
+                mapOut.put( pair.getValue(), new ArrayList<>() );
+            }
+            mapOut.get( pair.getValue() ).add( pair.getKey() );
         }
 
         return mapOut;

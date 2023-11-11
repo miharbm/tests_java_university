@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="make new test18">
+    <list default="true" id="2a90af29-3961-4d3e-bcf1-79629c44751e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test21/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/borodn/test26/TableSelects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test18/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test18/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test19/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test19/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test22_23/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test22_23/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test24/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test24/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test24/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test24/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/borodin/test25/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/borodin/test25/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/Collection.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -42,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Admin/Downloads/Изображения/Рабочий стол/leetcode",
+    "last_opened_file_path": "C:/Users/Admin/Downloads/Изображения/Рабочий стол/tests_java_university",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university" />
+      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test26" />
       <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src" />
       <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java" />
       <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test24" />
-      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test17" />
-      <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university\src\main\java\ru\borodin\test15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Downloads\Изображения\Рабочий стол\tests_java_university" />
@@ -70,13 +79,13 @@
       <recent name="ru.borodin.test18" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.borodin.test19.Main">
+  <component name="RunManager" selected="Application.ru.borodin.test21.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borodin.testOleg.Main" />
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test24.Main" />
       <module name="tests_java_university" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borodin.testOleg.*" />
+          <option name="PATTERN" value="ru.borodin.test24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.borodin.test15.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borodin.test15.Main" />
+    <configuration name="ru.borodin.test21.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test21.Main" />
       <module name="tests_java_university" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borodin.test15.*" />
+          <option name="PATTERN" value="ru.borodin.test21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.borodin.test17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borodin.test17.Main" />
+    <configuration name="ru.borodin.test22_23.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test22_23.Main" />
       <module name="tests_java_university" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borodin.test17.*" />
+          <option name="PATTERN" value="ru.borodin.test22_23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.borodin.test18.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borodin.test18.Main" />
+    <configuration name="ru.borodin.test25.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test25.Main" />
       <module name="tests_java_university" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borodin.test18.*" />
+          <option name="PATTERN" value="ru.borodin.test25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.borodin.test19.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.borodin.test19.Main" />
+    <configuration name="ru.borodin.test26.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.borodin.test26.Main" />
       <module name="tests_java_university" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.borodin.test19.*" />
+          <option name="PATTERN" value="ru.borodin.test26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.borodin.test19.Main" />
-        <item itemvalue="Application.ru.borodin.test18.Main" />
-        <item itemvalue="Application.ru.borodin.test15.Main" />
-        <item itemvalue="Application.ru.borodin.test17.Main" />
+        <item itemvalue="Application.ru.borodin.test21.Main" />
+        <item itemvalue="Application.ru.borodin.test25.Main" />
+        <item itemvalue="Application.ru.borodin.test26.Main" />
+        <item itemvalue="Application.ru.borodin.test22_23.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -158,7 +167,12 @@
       <workItem from="1696707347799" duration="1651000" />
       <workItem from="1696801636482" duration="673000" />
       <workItem from="1696854505682" duration="59000" />
-      <workItem from="1697148035939" duration="8900000" />
+      <workItem from="1697148035939" duration="15898000" />
+      <workItem from="1697614957525" duration="2032000" />
+      <workItem from="1697668769106" duration="594000" />
+      <workItem from="1697896232067" duration="7169000" />
+      <workItem from="1699179343799" duration="1196000" />
+      <workItem from="1699628910105" duration="6881000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -200,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697149668860</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="make stream parsing and pure queue realization">
+      <option name="closed" value="true" />
+      <created>1697235131469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697235131469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +234,7 @@
     <MESSAGE value="divide logic in test 17" />
     <MESSAGE value="change HashSet to LinkedHashSet" />
     <MESSAGE value="make new test18" />
-    <option name="LAST_COMMIT_MESSAGE" value="make new test18" />
+    <MESSAGE value="make stream parsing and pure queue realization" />
+    <option name="LAST_COMMIT_MESSAGE" value="make stream parsing and pure queue realization" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 package ru.borodin.test24;
 
-public class User {
+public class User{
     private int id;
     private String firstName;
     private String lastName;
@@ -62,5 +62,6 @@ public class User {
     public void setCountry(String country) {
         this.country = country;
     }
+
 }
 

@@ -43,7 +43,7 @@ public class Main {
         Arrays.stream( in.nextLine()
                         .trim()
                         .toLowerCase()
-                        .replaceAll( "\\p{Punct}", "" ).split( " " ) )
+                        .replaceAll( "\\p{Punct}", " " )/*.replaceAll( "-", " " )*/.split( " " ) )
                 .collect(Collectors.groupingBy(s -> s, Collectors.counting()))
                 .entrySet()
                 .stream()
@@ -51,7 +51,7 @@ public class Main {
                         .<String,Long>comparingByValue()
                         .reversed()
                         .thenComparing( Map.Entry::getKey ) )
-                .limit( 10 )
+                .limit( 11 )
                 .map( Map.Entry::getKey )
                 .forEach( System.out::println );
 

@@ -32,7 +32,7 @@ public class Main {
         users.add(new User(6, "Thomas", "Johnson", (int)(Math.random() *  92 + 8),"Russia"));
         users.add(new User(7, "George", "Johnson", (int)(Math.random() *  92 + 8),"Turkey"));
         users.add(new User(8, "Connor", "Ellington", (int)(Math.random() *  92 + 8),"Russia"));
-        users.add(new User(9, "Olivia", "Smith", (int)(Math.random() *  92 + 8),"Russia"));
+        users.add(new User(9, "Olivia", "Smith", (int)(Math.random() *  92 + 8),"Norway"));
         users.add(new User(10, "Amelia", "Brown", (int)(Math.random() *  92 + 8),"France"));
         users.add(new User(11, "Emily", "Walker", (int)(Math.random() *  92 + 8),"Germany"));
         users.add(new User(12, "Jessica", "Harris", (int)(Math.random() *  92 + 8),"Turkey"));
@@ -66,6 +66,7 @@ public class Main {
 
         Set<String> setCountries = users.stream().map(User::getCountry).collect(Collectors.toSet());
         System.out.println("Количество стран = " + setCountries.size());
+
         System.out.println("Количество стран = " + users.stream().map(User::getCountry).distinct().count());
 
 

@@ -16,8 +16,8 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-//        dequeRealization();
-        queueRealization();
+        dequeRealization();
+//        queueRealization();
     }
 
     public static void queueRealization() {
